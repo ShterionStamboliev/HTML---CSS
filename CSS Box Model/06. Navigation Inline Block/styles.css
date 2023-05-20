@@ -1,0 +1,31 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  display: inline-block;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: green;
+  padding: 15px;
+}
+
