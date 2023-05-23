@@ -1,13 +1,61 @@
-div, section {
-    display: flex;
+html {
+    box-sizing: border-box;
 }
 
 .container {
+    display: flex;
     max-width: 65vw;
+    margin: auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.week {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 span {
-    border-width: 1px;
-    border-color: black;
-    border-style: solid;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px 0;
+    flex-grow: 1;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
+}
+
+span:nth-child(1) {
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0;
+}
+span:nth-child(2),
+span:nth-child(3), 
+span:nth-child(4), 
+span:nth-child(5),
+span:nth-child(6) {
+    flex-basis: 18%;
+    align-items: center;
+    justify-content: center;
+}
+
+span:nth-child(7) {
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+span:nth-child(10),
+span:nth-child(11) {
+    flex-basis: 30%;
+    align-items: center;
+    justify-self: center;
 }
