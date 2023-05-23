@@ -1,0 +1,13 @@
+div, section {
+    display: flex;
+}
+
+.container {
+    max-width: 65vw;
+}
+
+span {
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
