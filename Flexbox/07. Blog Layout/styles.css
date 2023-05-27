@@ -1,3 +1,21 @@
 body {
     background-color: rgb(238,238,238);
+    margin: 2em 5em;
+}
+
+main {
+    display: flex;
+    border-top: 0.15em solid black;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elevator {
+    float: right;
+    padding: 0.5em;
+    margin: 0.1em 6em;
+    border: 0.2em solid black;
 }
