@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  max-width: 350px;
+  height: 120px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.007);
+  -moz-box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.6);
+  -webkit-box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.6);
+  -o-box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.6);
+}
+
+.content h3 {
+    margin: 0.6em;
+}
+
+.content p {
+    margin: 0.6em;
+}
