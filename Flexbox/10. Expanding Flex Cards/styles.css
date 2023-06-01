@@ -1,5 +1,28 @@
 body {
   display: flex;
   background-color: rgb(238, 238, 238);
+  justify-content: center;
   align-items: center;
+  height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+img {
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.007);
+    -moz-box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.6);
+    -webkit-box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.6);
+    -o-box-shadow: 0 0 10px 5px rgba(102, 102, 102, 0.6);
+}
+
+.shrink {
+    width: 5%;
+    object-fit: cover;
 }
