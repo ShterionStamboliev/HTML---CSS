@@ -36,6 +36,9 @@ main h2 {
 footer {
   background-color: rgb(102, 102, 102);
   color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
