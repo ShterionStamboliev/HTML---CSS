@@ -1,15 +1,17 @@
 body {
     background-color: #EEE;
-    padding: 5rem;
+    padding: 3rem;
     display: flex;
     flex-wrap: wrap;
+    gap: 1em;
 }
 
 header, main, aside, footer {
-    padding: 2rem;
+    padding: 1rem;
     background-color: #FFF;
     border-radius: 0.4rem;
     color: #000;
+    box-shadow: 0 0 6px 2px rgb(0,0,0,0.2);
 }
 
 header, footer {
@@ -17,9 +19,21 @@ header, footer {
 }
 
 main {
-    flex: 8 1 40rem;
+    flex: 2 1 50rem;
 }
 
 aside {
-    flex: 2 1 20rem;
+    flex: 2 1 10rem;
+}
+
+header {
+    height: 5em;
+}
+
+footer {
+    height: 3em;
+}
+
+main, aside {
+    height: 10em;
 }
