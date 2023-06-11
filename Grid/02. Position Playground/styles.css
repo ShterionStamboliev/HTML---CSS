@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.viewport.landscape {
+  height: 50vh;
+  background: linear-gradient(to right, #007991, #78ffd6);
+  position: relative;
+  overflow: hidden;
+}
+
+.viewport.landscape .card {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport.landscape .card img {
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.5);
+}
+
+.viewport.portrait {
+  background: linear-gradient(to right, #d38312, #a83279);
+  height: 50vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.viewport.portrait .card {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport.portrait .card img {
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgba(0,0,0,0.5);
+}
