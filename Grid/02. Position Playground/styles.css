@@ -25,7 +25,7 @@
 }
 
 .viewport.portrait {
-  background: linear-gradient(to right, #d38312, #a83279);
+  background: linear-gradient(to left, #d38312, #a83279);
   height: 50vh;
   position: relative;
   overflow: hidden;
@@ -42,4 +42,11 @@
 .viewport.portrait .card img {
     border-radius: 0.5em;
     box-shadow: 0 0 1em 0 rgba(0,0,0,0.5);
+}
+
+i {
+    color: white;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
 }
