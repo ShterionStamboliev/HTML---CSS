@@ -4,3 +4,14 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0.5em;
+}
+
+h1 {
+    position: absolute;
+    color: antiquewhite;
+    text-shadow: 1px 1px 20px black;
+    top: 60px;
+    left: 180px;
+}
