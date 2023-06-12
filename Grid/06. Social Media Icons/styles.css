@@ -18,9 +18,25 @@ i {
 a {
   border-radius: 50%;
   background-color: #eee;
-  padding: 10px;
+  padding: 15px;
 }
 
 .fa-square-facebook:hover {
     color: #3b5998;
+}
+
+.fa-twitter:hover {
+    color: #037ccd;
+}
+
+.fa-google-plus:hover {
+    color: #d64c3e;
+}
+
+.fa-linkedin:hover {
+    color: #0c61bf;
+}
+
+.fa-instagram:hover {
+    color: #b72fae;
 }
