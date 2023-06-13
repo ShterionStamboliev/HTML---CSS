@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  p {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-solid {
+    position: relative;
+    top: 20px;
+    left: 5px;
+  }
+
+  label {
+    position: relative;
+    top: 15px;
+  }
+
+}
+
+section {
+  width: 350px;
+  margin: 25px auto;
+}
+
+button {
+  background-color: #2d2d2d;
+  color: #fdffff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+
+legend {
+  border: 1px solid black;
+  padding: 5px 20px 5px 5px;
+}
+
+p {
+  font-weight: bold;
+}
+
+i {
+  position: relative;
+  top: 1px;
+  left: 25px;
+}
+
+input {
+  padding: 3px 10px;
+}
+
+section {
+  width: 295px;
+ margin: auto;
+}
