@@ -47,15 +47,31 @@
     }
 
     .section-heading-text {
-        font-size: 16px;
+        font-size: 22px;
         margin-bottom: 8px;
     }
 
     .section-heading-text1 {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .home-cards-container {
-        gap: 10px;
+        grid-gap: 20px;
+    }
+
+    .home-cards-container:after {
+        display: block;
+        content: '';
+        flex: 1 1 200px;
+    }
+
+    .category-card-category-card {
+        flex: 1 1 200px;
+    }
+
+    .category-card-image {
+        width: 100%;
+        height: 100%;
+        aspect-ratio: 1;
     }
 }
