@@ -1,0 +1,61 @@
+@media (width <= 600px) {
+    .home-left {
+        display: none;
+    }
+    .home-right {
+        display: none;
+    }
+    
+    .home-hero1 {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .home-container01 {
+        display: none;
+    }
+
+    .home-container04 {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .home-container03 {
+        align-items: center;
+    }
+
+    .home-btn-group {
+        flex-direction: column;
+    }
+
+    .home-info {
+        flex-direction: column;
+    }
+
+    .navbar-logo-title {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .section-container {
+        padding-top: 25px;
+    }
+
+    .section-heading-section-heading {
+        margin-bottom: 24px;
+    }
+
+    .section-heading-text {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .section-heading-text1 {
+        font-size: 12px;
+    }
+
+    .home-cards-container {
+        gap: 10px;
+    }
+}
