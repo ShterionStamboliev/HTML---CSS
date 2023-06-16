@@ -27,6 +27,7 @@
 .nav-header .nav-links {
     display: flex;
     justify-content: end;
+    font-size: 19px;
 }
 
 .nav-header .nav-links .links {

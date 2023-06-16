@@ -4,5 +4,23 @@
     align-items: center;
     padding-top: 9em;
     color: #FFF;
-    letter-spacing: 1.5px;
+}
+
+.content h2 {
+    letter-spacing: 15px;
+}
+
+.content p {
+    font-size: 15px;
+    max-width: 28em;
+    margin-bottom: 2em
+}
+
+.content a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: rgb(209, 25, 25);
+    padding: 5px 15px;
+    border-radius: 5px;
+    line-height: 1.2;
 }
