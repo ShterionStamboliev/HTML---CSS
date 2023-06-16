@@ -1,4 +1,15 @@
 .nav-header {
     display: flex;
     justify-content: space-between;
+    background-color: rgb(209, 25, 25);
+    padding: 10px 15px;
+}
+
+.nav-header .nav-socials  {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-header .nav-socials li {
+    display: inline-block;
 }
