@@ -24,3 +24,49 @@
     border-radius: 5px;
     line-height: 1.2;
 }
+
+.welcome-section {
+    margin-top: 15em;
+    padding-top: 2.5em;
+    background-color: #FFF;
+}
+
+.welcome-header {
+    text-align: center;
+}
+
+[class*="welcome-"] header h3:after {
+    display: block;
+    content: '';
+    width: 1.8em;
+    height: 3px;
+    border: 3px;
+    background: red;
+    margin: 1em auto;
+}
+
+.welcome-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.coach-card {
+    text-align: center;
+    color: #FFF;
+    max-width: 250px;
+}
+
+.welcome-div .coach-card img {
+    height: 10%;
+    padding-bottom: 10px;
+}
+
+.welcome-div .coach-text {
+    color: red;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.welcome-div .coach-info {
+    color: #000;
+}
