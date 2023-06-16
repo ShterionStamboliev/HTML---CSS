@@ -1,3 +1,11 @@
+@import url(typograpy.css);
+
 @import url(header.css);
 
 @import url(layout.css);
+
+@import url(site-body.css);
+
+@import url(site-footer.css);
+
+@import url(main-content.css);
