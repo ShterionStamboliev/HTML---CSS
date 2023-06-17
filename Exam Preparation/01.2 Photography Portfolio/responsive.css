@@ -1,0 +1,104 @@
+@media (width <= 600px) {
+    .navigation-nav  {
+        display: none;
+    }
+
+    .navigation-header .navigation-max-width {
+        padding-top: 16px;
+        padding-left: 12px;
+        padding-bottom: 0;
+    }
+
+    .home-text-container .home-text {
+        display: none;
+    }
+
+    .home-main .home-portofolio {
+        padding-bottom: 25px;
+    }
+
+    .home-main .home-text01 {
+        margin-top: 0;
+    }
+
+    .home-main .button-secondary {
+        margin-bottom: 15px;
+    }
+
+    .home-main .home-tab-selector-cards-container {
+        grid-template-columns: auto;
+    }
+
+    .home-main .home-about {
+        padding-top: 24px;
+        padding-bottom: 40px;
+    }
+
+    .home-main .home-about .home-image-container {
+        display: none;
+    }
+
+    .home-main .home-about .home-max-width1 {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .home-main .home-process {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .home-main .home-process .home-text10 {
+        margin-right: 30px;
+    }
+
+    .home-main .home-process .home-text12 {
+        max-width: 425px;
+    }
+
+    .home-container .section-container {
+        padding-bottom: 35px;
+        padding-top: 20px;
+    }
+
+    .home-container .home-portofolio {
+        padding-top: 80px;
+    }
+
+    .section-container .home-top-part {
+       flex-direction: column;
+    }
+
+    .section-container .home-links-container {
+        flex-direction: column;
+        order: 1;
+    }
+
+    .section-container .home-subscribe-container {
+        order: 2;
+    }
+
+    .section-container .home-links-container .home-product-container {
+        padding-bottom: 25px;
+    }
+
+    .section-container .home-links-container .home-navigate-container {
+        padding-bottom: 25px;
+    }
+
+    .section-container .home-links-container .home-contact-container {
+        padding-bottom: 25px;
+    }
+
+    .section-container .home-subscribe-container  {
+        width: auto;
+    }
+
+    .section-container .home-subscribe-container .button-primary {
+        line-height: 2;
+    }
+
+    
+}
+
+    
