@@ -117,7 +117,6 @@ html {
 
 .payment-card-mid .version-access {
     padding-top: 15px;
-    padding-bottom: 40px;
 }
 
 .payment-card-mid .version-access .checkmark {
@@ -141,5 +140,5 @@ html {
 }
 
 .payment-card-mid .sub-btn {
-    padding-bottom: 15px;
+    padding-top: 55px;
 }
